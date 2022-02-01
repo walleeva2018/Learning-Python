@@ -1,0 +1,18 @@
+# < , > , <= , >= , == , !=
+
+if a<b:
+    print("this is true")
+else :
+    print("This is false")
+
+if a==b:
+    print("this works")
+elif a<=b:
+    print("elif works fine")
+elif a>=b:
+    print("second elif works")
+else :
+    print("nothing is true")
+
+if a-1==b:
+    print("this is standalone if")
