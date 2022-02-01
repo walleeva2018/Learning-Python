@@ -1,0 +1,27 @@
+#Variables
+
+NameofChannel='Gyanarjan'
+
+
+
+Number=6
+
+#Typecasting 
+
+number=(int)(3)
+
+x=(str)(3)
+
+y=float(8)
+
+#int 5 ,8 ,-3,-2
+#float 4.3,5.6
+#string "gyanarjan"
+
+
+
+print(NameofChannel)
+print(Number)
+print(number)
+print(x)
+print(y)
