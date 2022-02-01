@@ -1,0 +1,36 @@
+cars = ["Audi","Ferrari","Tesla"]
+
+for i in cars:
+    print(i) 
+
+print(" second example")
+
+for i in range(2,-1,-1):
+    print(cars[i])
+
+i=2
+while i>=0:
+    print(cars[i])
+    i=i-1
+
+for i in range (1,3):
+    cars.append("Walton")
+
+while i<len(cars):
+    print(cars[i])
+    i=i+1
+
+cars.pop(1)
+
+
+
+cars.remove("Walton")
+
+for i in cars:
+    print(i)
+
+cars.append("BPL")
+cars.sort()
+
+for i in cars:
+    print(i)
